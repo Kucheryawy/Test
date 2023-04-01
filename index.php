@@ -106,7 +106,7 @@ if (isset($_GET['question_10'])) {
                     <div class="mb-3 form-check">
                         <input class="form-check-input" type="radio" name="question_2" value="b" id="question_2b" required>
                         <label class="form-check-label" for="question_2b">
-                            Б) обозначается
+                            Б)  Место, где тело движется с постоянной скоростью.
                         </label>
                     </div>
                     <div class="mb-3 form-check">
