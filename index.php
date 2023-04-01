@@ -50,14 +50,14 @@ if (isset($_GET['question_8'])) {
     } 
 }
 
-if (isset($_GET['question_9[]'])) {      
-    if ($_GET['question_9[]'] == "a") {  
+if (isset($_GET['question_9'])) {      
+    if ($_GET['question_9'] == "a") {  
         $mark++;                      
     } 
 }
 
-if (isset($_GET['question_10[]'])) {      
-    if ($_GET['question_10[]'] == "b") {  
+if (isset($_GET['question_10'])) {      
+    if ($_GET['question_10'] == "b") {  
         $mark++;                      
     } 
 }
@@ -86,7 +86,7 @@ if (isset($_GET['question_10[]'])) {
                     <div class="mb-3 form-check">
                         <input class="form-check-input" type="radio" name="question_1" value="b" id="question_1b" required>
                         <label class="form-check-label" for="question_1b">
-                            B) Движение тела в одном направлении.
+                            Б) Движение тела в одном направлении.
                         </label>
                     </div>
                     <div class="mb-3 form-check">
@@ -258,6 +258,8 @@ if (isset($_GET['question_10[]'])) {
                             </textarea>
                         </div>
                         <?php endif; ?>
+
+
                         <?php
                         //           elseif ($mark) <= 2 { 
                         //            echo $mark == 1
@@ -275,7 +277,6 @@ if (isset($_GET['question_10[]'])) {
                     <!-- <div class="mb-3">
                         <a href="result.php" type="button" class="btn btn-primary"> Result</a>
                     </div> -->
-                    
                 </form>
             </div>
         </div>
